@@ -1,0 +1,19 @@
+1.  stdint.h is a header file that includes special integer types that are useful in several programs
+2.  because of these types, we can use specific space in a program
+3.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+4.  BM (ascii)
+    0x4d42 (hex)
+5.  bfsize is the number of bytes in the file, while bisize is the number of bytes in BITMAP INFO HEADER
+6.  the origin is moved from upper left to lower left corner
+7.  biBitCount
+8.  if it does not find the input file it will return null, while if it cannot create the output file, it will again retrun null
+9.  because it specifies how many elements to read
+10. 3
+11. it moves to the specified line of a file
+12. A constant which, when used as the argument to the
+    fseek function, specifies that the offset provided is relative to
+    the current file position.
+
